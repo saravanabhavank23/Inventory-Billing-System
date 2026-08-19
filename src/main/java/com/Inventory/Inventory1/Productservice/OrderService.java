@@ -63,6 +63,6 @@ public class OrderService {
     }
 
     public List<Order> getAllOrders() {
-        return orderRepo.findAll();
+        return orderRepo.findAllWithItems();
     }
 }
